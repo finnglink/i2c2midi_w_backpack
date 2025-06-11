@@ -2,6 +2,10 @@
 
 ### A fork of the original i2c2midi, converting it to a backpack expander based on a wireless-capable MCU (ESP32 planned, currently nRF52840)
 
+## disclaimer ‼️
+
+I'm a rookie programmer, so use with caution. Code contains not-yet documented sections and is missing credits. 
+
 ## roadmap
 
 - port code to nRF52840 ✅
