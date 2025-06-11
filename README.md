@@ -1,4 +1,23 @@
-# i2c2midi
+# i2c2midi wireless teletype backpack
+
+### A fork of the original i2c2midi, converting it to a backpack expander based on a wireless-capable MCU (ESP32 planned, currently nRF52840)
+
+## roadmap
+
+- port code to nRF52840 ✅
+- add MIDI over Bluetooth / BLE ✅
+- add TRS MIDI In (replacing USB Host MIDI In temporarily)
+- port to ESP32 platform, ideally ESP32-S3
+- add MIDI over WiFi
+- add MIDI access point with config options
+- add OSC (requires new TT OPs)
+- add 2x trigger outputs to interface with modules or TT itself (wired to T7/8 from the backpack)
+- bring back USB Host features
+- enable USB MIDI (non-host)
+- add Neopixel info display to front panel
+- get PCBs fabricated
+
+## i2c2midi
 
 ### i2c2midi is a DIY open source 2 HP Teletype Expander that speaks I2C and MIDI.
 
